@@ -1,4 +1,4 @@
-(defproject com.hello/lein-deploy-uberjar "0.1.0-SNAPSHOT"
+(defproject com.hello/lein-deploy-uberjar "0.1.0"
   :description "Leiningen plugin to deploy an uberjar to Maven repository."
   :url "https://github.com/hello/lein-deploy-uberjar"
   :license {:name "Eclipse Public License"
