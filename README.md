@@ -1,25 +1,12 @@
 # lein-deploy-uberjar
 
-A Leiningen plugin to do many wonderful things.
+Leiningen plugin to deploy an uberjar to an S3 Maven repository
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
+Put `[lein-deploy-uberjar "0.1.0"]` into the `:plugins` vector of your project.clj.
 
-Put `[lein-deploy-uberjar "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your `:user`
-profile.
-
-FIXME: Use this for project-level plugins:
-
-Put `[lein-deploy-uberjar "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
-
-FIXME: and add an example usage that actually makes sense:
+Run it with:
 
     $ lein deploy-uberjar
 
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
